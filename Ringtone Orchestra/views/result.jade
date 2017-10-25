@@ -1,0 +1,52 @@
+extends layout
+
+block content
+  .reveal
+  .result
+    .i_tray
+      img(src=item.image)
+    .tray
+      h3= item.name
+      h4= item.description
+      h4
+        a(href=item.url target='_blank') View Source
+
+  .btn_ctrl
+    ul
+      li.ctrl_share
+        img(src='/img/btn_share.png')
+      li.ctrl_star
+        img.img_star(src='/img/btn_star.png')
+        img.img_starred(src='/img/btn_starred.png')
+      li.ctrl_del
+        img(src='/img/btn_del.png')
+
+  a(href='/items/fav')
+    .ctrl_fav
+      img(src='/img/btn_fav_icon.png')
+
+  .share
+    .share_cancel
+      h3 Cancel
+    .share_content
+      //- JiaThis Button BEGIN
+      .jiathis_style_32x32
+        a.jiathis_button_tsina
+        a.jiathis_button_tqq
+        a.jiathis_button_weixin
+        a.jiathis_button_renren
+        a.jiathis_button_email
+        a.jiathis.jiathis_txt.jiathis_separator.jtico.jtico_jiathis(href='http://www.jiathis.com/share' target='_blank')
+        a.jiathis_counter_style
+      script.
+        var jiathis_config={
+          summary:"",
+          shortUrl:false,
+          hideMore:true
+        };
+      script(src='http://v3.jiathis.com/code/jia.js' charset='utf-8')
+      //- JiaThis Button END
+    .share_bg
+
+  script var curCoupon = !{JSON.stringify(item)};
+  script(src='/js/result.js')

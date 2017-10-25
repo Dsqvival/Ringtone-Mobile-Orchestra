@@ -1,0 +1,282 @@
+@keyframes play {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes play {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  padding-top: 40%;
+}
+
+.silence {
+  position:relative; 
+  z-index:99999;
+  width: 300px;
+  height: 300px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+
+  display: inline-block;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-image: url(../img/shake.png);
+  background-position: 0px 0px;
+}
+
+.sprite {
+  position:relative; 
+  z-index:99998;
+  width: 300px;
+  height: 300px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+
+  display: inline-block;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-image: url(../img/shake.png);
+  background-position: 0px 0px;
+
+  animation: play 0.8s infinite;
+  -webkit-animation: play 0.8s infinite;
+}
+
+.cover {
+  width: 100%;
+  height: 339px; 
+
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+
+  background: url(../img/cover.png) no-repeat center top;
+  z-index: 0;
+}
+
+.reveal {
+  width: 100%;
+  height: 80px;
+
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+
+  background: url(../img/reveal.png) no-repeat center top;
+  z-index: 99;
+}
+
+.reveal_list {
+  width: 100%;
+  height: 80px;
+
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+
+  background: url(../img/reveal_list.png) no-repeat center top;
+  z-index: 99;
+}
+
+.result {
+  width: 80%;
+  margin:0px auto 0px auto;
+  text-align: center;
+  padding-top: 15%;
+  background-color: #FFF;
+  box-shadow: 0 8px 0 rgba(0,0,0,0.2);
+}
+
+.result a {
+  color: #545454;
+  text-decoration: none;
+}
+
+.i_tray {
+  display: inline-block;
+}
+
+.i_tray img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.tray {
+  padding: 10px 5px 10px 5px;
+}
+
+.btn_ctrl {
+  display: block;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.img_starred {
+  display: none;
+  opacity: 0;
+}
+
+.ctrl_fav {
+  display: block;
+  text-align: right;
+  margin: 40px 10%;
+}
+
+.ctrl_fav img {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.2); 
+}
+
+.ctrl_shake {
+  display: block;
+  text-align: right;
+  margin: 40px 10%;
+}
+
+.ctrl_shake img {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.2); 
+}
+
+.coupon_list ul {
+  padding: 0;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  display: block;
+  list-style: none;
+  overflow: hidden;
+}
+
+.coupon_list li {
+  position: relative;
+  display: block;
+  height: 200px;
+  background-color: #FFF;
+  background-size: cover;
+  color: #555;
+  text-align: center;
+  box-shadow: 0px 6px 0 rgba(0,0,0,0.2); 
+  margin-top: 20px;
+  padding: 0 0 20px 0;
+   
+}
+
+.list_title {
+  padding: 5px 20px 5px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.list_left {
+  width: 80%;
+}
+
+.ctrl_unstar { 
+  position: absolute;
+  width: 20%;
+  right: 0;
+  top: 7%;
+}
+
+.coupon_list h2 {
+  line-height: 150%;
+}
+
+.share {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.share_content {
+  position: inherit;
+  bottom: 8%;
+  height: 10%;
+  width: 100%;
+  padding: 7% 0 0 10%;
+  box-shadow: 0px 4px 0 rgba(0,0,0,0.16); 
+  background-color: rgb(255,255,255);
+}
+
+.share_cancel {
+  position: fixed;
+  bottom: 0;
+  height: 8%;
+  width: 100%;
+  text-align: center;
+  color: #505050;
+  background-color: rgb(200,200,200);
+}
+
+.share_bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+li {
+  padding: 0 15px 0 15px;
+  margin: 0;
+  display: inline;
+}
+
+
+body {
+  background: url(../img/bg.png) repeat #dd563c;
+  background-size: 100%;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}

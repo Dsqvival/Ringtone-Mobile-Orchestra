@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'osc' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of /Users/qiqi/Desktop/Ringtone Orchestra/package.json
+5 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/babel/package.json
+6 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/cookie-parser/package.json
+8 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/debug/package.json
+9 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/jade/package.json
+11 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/mongodb/package.json
+12 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/morgan/package.json
+13 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/osc/package.json
+14 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/raccoon/package.json
+15 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/redis/package.json
+16 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/serve-favicon/package.json
+17 verbose installManyTop reading scoped package data from /Users/qiqi/Desktop/Ringtone Orchestra/node_modules/shortid/package.json
+18 info package.json redis@0.12.1 No license field.
+19 verbose readDependencies loading dependencies from /Users/qiqi/Desktop/Ringtone Orchestra/package.json
+20 verbose install osc is installed as 2.1.0
+21 silly cache add args [ 'osc@2.1.3', null ]
+22 verbose cache add spec osc@2.1.3
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'osc@2.1.3',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'osc',
+23 silly cache add   rawSpec: '2.1.3',
+23 silly cache add   spec: '2.1.3',
+23 silly cache add   type: 'version' }
+24 silly addNamed osc@2.1.3
+25 verbose addNamed "2.1.3" is a plain semver version for osc
+26 silly mapToRegistry name osc
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'osc',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'osc',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/osc
+31 verbose addNameVersion registry:https://registry.npmjs.org/osc not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/osc
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 12:16:29 AM
+35 verbose request id 21cb9ba09637498d
+36 verbose etag "4DKU2H8S6IIZSXV5TTK1SP6X2"
+37 http request GET https://registry.npmjs.org/osc
+38 http 304 https://registry.npmjs.org/osc
+39 verbose headers { date: 'Thu, 23 Jun 2016 07:16:30 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   etag: '"4DKU2H8S6IIZSXV5TTK1SP6X2"',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1466666190.355119,VS0,VE179',
+39 verbose headers   vary: 'Accept-Encoding' }
+40 silly get cb [ 304,
+40 silly get   { date: 'Thu, 23 Jun 2016 07:16:30 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: '"4DKU2H8S6IIZSXV5TTK1SP6X2"',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-sjc3121-SJC',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1466666190.355119,VS0,VE179',
+40 silly get     vary: 'Accept-Encoding' } ]
+41 verbose etag https://registry.npmjs.org/osc from cache
+42 verbose get saving osc to /Users/qiqi/.npm/registry.npmjs.org/osc/.cache.json
+43 verbose correctMkdir /Users/qiqi/.npm correctMkdir not in flight; initializing
+44 verbose stack Error: version not found: osc@2.1.3
+44 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:137:12)
+44 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+44 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+44 verbose stack     at fixName (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:29:5)
+44 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+44 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+44 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+45 verbose statusCode 404
+46 verbose cwd /Users/qiqi/Desktop/Ringtone Orchestra
+47 error Darwin 14.5.0
+48 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "osc"
+49 error node v4.4.2
+50 error npm  v2.15.0
+51 error version not found: osc@2.1.3
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]

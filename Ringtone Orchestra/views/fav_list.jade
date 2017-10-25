@@ -1,0 +1,21 @@
+extends layout
+block content
+  .reveal_list
+  .coupon_list
+    ul
+      if !starred.length
+        li(style='text-align: center;')
+          h2(style='padding-top: 20%') Empty :'(
+      else
+        for item in starred
+          li(style='background-image: url(#{item.image})')
+            .list_title
+              .list_left
+                h2= item.name
+              .ctrl_unstar(data-id='#{item._id}')
+                img(src='/img/btn_unstar.png')
+  a(href='/')
+    .ctrl_shake
+      img(src='/img/btn_shake_icon.png')
+
+  script(src='/js/fav_list.js')
