@@ -1,4 +1,4 @@
-Ringtone
+Ringtone Orchestra
 Use your phone as an instrument and together form the orchstra.
 Control: beat, tune, volume, freqeunces, accompaniment style.
 
