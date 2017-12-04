@@ -4,26 +4,26 @@
 # User Guide
 Control dimensions: beat, tune, volume, freqeunces, accompaniment style.
 
-step1: confirm the ringtone : 3 main melodies
+Step1: confirm the ringtone : 3 main melodies
 
-step2: instruments : 3 for ringtone, 5 for rings, 10 other effects
+Step2: instruments : 3 for ringtone, 5 for rings, 10 other effects
 
-step3: companiment style: natural, classical, modern, chinese, digital
+Step3: companiment style: natural, classical, modern, chinese, digital
 
-step4: algorithmic effects: additional tones, chord, fantastic effects
+Step4: algorithmic effects: additional tones, chord, fantastic effects
 
-step5: control accesses
+Step5: control accesses
 
 
 
 # Motion Guide
 
-click to start/end
+1. Click to start/end
 
-flip to control volume, louder or smaller
+2. Flip to control volume, louder or smaller
 
-shake vertical to control beat, faster or slower
+3. Shake vertically to control beat, faster or slower
 
-shake horizantol to control tune, higher or lower
+4. Shake horizantolly to control tune, higher or lower
 
-click to choose compaiment (algorithmic) and effects, enter dur tempo, melody
+5. Click to choose compaiment (algorithmic) and effects, enter dur tempo, melody
