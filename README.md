@@ -1,5 +1,5 @@
 # Ringtone-Mobile-Orchestra
- Developed a mobile web app with SuperCollider that lets people use mobile gestures (speeds, ranges, directions) to control melodies (such as ringtones) in real-time as if they were playing musical instruments, adjusting tone, volume, tempo, special accompaniment etc., allowing group of people to form ringtone orchestra.
+ Developed a mobile web app with SuperCollider that lets people use mobile gestures (speeds, ranges, directions) to control melodies (such as ringtones) in real-time as if they were playing musical instruments, adjusting pitch, volume, tempo, accompaniment and special effects etc., allowing group of people to form ringtone orchestra.
 
 # User Guide
 Control dimensions: beat, tune, volume, freqeunces, accompaniment style.
